@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+
+.header-title {
+  background-color: rgb(255, 255, 255);
+  font-size: 150px;
+  color: rgb(0, 0, 0);
+  font-family: "Bungee Shade", cursive;
+  text-align: center;
+  height: auto;
+  display: block;
+  line-height: 100px;
+  padding: 25px;
+}
+.app-logo {
+  transition: all 3s ease-in-out;
+  animation: App-logo-spin infinite 5s linear;
+  max-height: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.about {
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+}
+.home {
+  text-align: center;
+}
+
+.emoji-card {
+  align-items: center;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+}
+
+.emoji-image {
+  margin: auto;
+  display: block;
+  width: 150px;
+}
+
+.add-new-emoji {
+  font-family: "Rampart One", cursive;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+.emoji-form {
+  font-family: "Bungee Shade", cursive;
+  border-radius: 30px;
+  text-align: center;
+  margin: 100px;
+  box-sizing: border-box;
+  background-color: rgb(89, 119, 170);
+  padding: 5%;
+}
+
+.category {
+  font-family: "Rampart One", cursive;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+.learn-more {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  padding: 10px;
+}
